@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Descargar Minecraft</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+    url('carpeta/bg.jpeg') center/cover;
+    overflow:hidden;
+}
+
+.card{
+    width:90%;
+    max-width:430px;
+    background:rgba(15,15,15,.82);
+    backdrop-filter:blur(10px);
+    border:2px solid rgba(255,255,255,.08);
+    border-radius:25px;
+    padding:35px;
+    text-align:center;
+    box-shadow:0 0 35px rgba(0,0,0,.6);
+}
+
+.logo{
+    width:130px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 10px rgba(255,255,255,.2));
+}
+
+h1{
+    color:white;
+    font-size:2.2rem;
+    margin-bottom:10px;
+}
+
+p{
+    color:#d7d7d7;
+    margin-bottom:22px;
+    line-height:1.6;
+}
+
+.safe{
+    background:rgba(69,193,74,.15);
+    border:1px solid rgba(69,193,74,.4);
+    color:#7dff83;
+    padding:12px;
+    border-radius:14px;
+    margin-bottom:25px;
+    font-size:.95rem;
+}
+
+.download-btn{
+    display:inline-block;
+    padding:16px 38px;
+    background:#45c14a;
+    color:white;
+    text-decoration:none;
+    font-size:1.1rem;
+    font-weight:bold;
+    border-radius:16px;
+    transition:.2s;
+    box-shadow:0 5px 18px rgba(69,193,74,.35);
+}
+
+.download-btn:hover{
+    transform:scale(1.05);
+    background:#57d85b;
+}
+
+.download-btn:active{
+    transform:scale(.96);
+}
+
+.footer{
+    margin-top:25px;
+    color:#8b8b8b;
+    font-size:.9rem;
+}
+
+.creator{
+    margin-top:8px;
+    color:#ffffff;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <img class="logo"
+    src="carpeta/Minecraft.jpeg">
+
+    <h1>Minecraft</h1>
+
+    <p>
+        Descarga Minecraft y comienza tu aventura
+        explorando mundos infinitos llenos de bloques.
+    </p>
+
+    <div class="safe">
+        ✔ Archivo seguro y libre de virus<br>
+        ✔ Descarga verificada
+    </div>
+
+    <a class="download-btn"
+       href="https://mcpedl.org/getfile/1196"
+       target="_blank">
+       Descargar Ahora
+    </a>
+
+    <div class="footer">
+         versión disponible: 1.18.32
+    </div>
+
+    <div class="creator">
+        By Ale
+    </div>
+
+</div>
+
+</body>
+</html>
